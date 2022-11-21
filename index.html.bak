@@ -1,0 +1,674 @@
+<!doctype html>
+<html>
+<head>
+     <title> Mentor Template With Bootstrap</title>
+             <!---- meta link ------>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width , initial-scale=1.0">
+             <!---- favicon link ----->
+     <link rel="icon" href="images/favicon.png">
+	         <!---- icofont link ----->
+	 <link rel="stylesheet" href="icon/icofont.min.css">
+	         <!----- bootstrap link ---->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	         <!---- css link ----->
+	 <link rel="stylesheet" href="css/main.css">
+	 
+</head>
+<body>
+
+             <!--------- header section start ---------->
+  
+        <header class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-3">
+			  
+			  <div class="col-lg-12">
+				<div class="container">
+			  <div class="row">
+			  
+			     <div class="col-lg-3">
+				     <a class="logo fs-2 fw-bolder" href="index.html">MENTOR</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+								</button>
+				 </div>
+				 
+				 
+				 <div class="col-lg-9 d-flex">
+				   <div class="collapse navbar-collapse align-items-center" id="navbarNavDropdown">
+					 <ul class="navbar-nav">
+					
+							<li class="nav-item">
+							  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="about.html">About</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="courses.html">Courses</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="trainers.html">Trainers</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="events.html">Events</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="pricing.html">Pricing</a>
+							</li>
+							
+							<li class="nav-item nav-li">
+							
+							    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"  data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown
+							    </a>
+							  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item pb-2" href="#">Dropdown 1</a></li>
+								
+								<li class="dropdown-in">
+								
+								<a class="dropdown-item pb-2" href="#">Deep Dropdown <i class="icofont-caret-right ps-4"></i></a>
+								   
+								   <ul class="sub-dropdown">
+										<li><a href="#"> Deep Dropdown 1 </a></li>
+										<li><a href="#"> Deep Dropdown 2 </a></li>
+										<li><a href="#"> Deep Dropdown 3 </a></li>
+										<li><a href="#"> Deep Dropdown 4 </a></li>
+										<li><a href="#"> Deep Dropdown 5 </a></li>
+								   </ul>
+								
+								</li>
+								
+								<li><a class="dropdown-item pb-2" href="#">Dropdown 3</a></li>
+								<li><a class="dropdown-item pb-2" href="#">Dropdown 4</a></li>
+								<li><a class="dropdown-item pb-2" href="#">Dropdown 5</a></li>
+							  </ul>
+							  
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							
+							<li class="nav-item">
+							  <a class="nav-link get-btn" href="courses.html">Get Started</a>
+							</li>
+							
+							
+							
+					 </ul>
+				   </div>
+				 </div>
+				</div>
+				</div>
+			</div>
+        </header>
+		
+		
+		          <!--------- header section end ---------->
+	
+	
+
+                <!-------------- banner section start -------------->
+				
+        <section class="banner-section">
+		  
+		   <div class="container">
+		      <div class="banner-content">
+			       <h1>Learning Today,<br>Leading Tomorrow</h1>
+				   <p>We are team of talented designers making websites with Bootstrap</p>
+				   <a  href="courses.html" class="banner-btn"> Get Started </a>
+			  </div>
+		   </div>
+		</section>
+		
+		        <!-------------- banner section end -------------->
+				
+				
+				
+			  <!------------ images-content section start --------->
+			  
+			  
+	    <section class="pt-5 image-content">
+		   <div class="container">
+		      <div class="row">
+			     
+					 <div class="col-lg-6">
+						 <div class="content">
+							 <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+							 <p class="content-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							 <ul class="img-content-list">
+								 <li><i class="icofont-tick-boxed"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+								 <li><i class="icofont-tick-boxed"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+								 <li><i class="icofont-tick-boxed"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+							 </ul>
+							 <p class="last-line">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+						 </div>
+					 </div>
+				 
+					 <div class="col-lg-6">
+						<div class="image-box">
+							<img src="images/dis.jpg" class="img-fluid" alt="images-content-images">
+						</div>
+					 </div>
+				 
+			  </div>
+		   </div>
+		<section>
+			  
+			  
+			  
+			  <!------------ images-content section end --------->
+			  
+			  
+			  
+			 <!--------- rating section start --------->
+			 
+	
+	<section class="mt-5 mb-5 rating-section">
+	    <div class="container">
+		    <div class="row">
+			
+			    <div class="col-lg-3">
+				     <div class="rating-box">
+					    <h2>1232</h2>
+						<p>Students</p>
+					 </div>
+				</div>
+				
+				
+				<div class="col-lg-3">
+				     <div class="rating-box">
+					    <h2>64</h2>
+						<p>Courses</p>
+					 </div>
+				</div>
+				
+				<div class="col-lg-3">
+				     <div class="rating-box">
+					    <h2>42</h2>
+						<p>Events</p>
+					 </div>
+				</div>
+				
+				<div class="col-lg-3">
+				     <div class="rating-box">
+					    <h2>15</h2>
+						<p>Trainers</p>
+					 </div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+			 
+			 <!--------- rating section end --------->
+			 
+			 
+			 
+			 
+			 <!------------- details section start ------------->
+			 
+	
+	<section class="details-section">
+	    <div class="container">
+		    <div class="row">
+			
+			    <div class="col-lg-4">
+				    <div class="main-box pt-5 pb-4 ps-4 pe-4">
+					    <h2 class="text-white fs-1 fw-bold">Why Choose Mentor?</h2>
+						<p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+						<div class="details-btn text-center pt-3">
+						   <a href="about.html" class="fs-6 text-center">Learn More<i class="icofont-curved-right ps-2"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-8 d-flex align-items-center">
+				  <div class="second-box-down">
+    				<div class="row">
+					
+					   <div class="col-lg-4">
+								  <div class="second-box">
+									  <i class="icofont-newspaper"></i>
+									  <h5>Corporis voluptates sit</h5>
+									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+								  </div>
+						   </div>
+						   
+						   <div class="col-lg-4">
+								  <div class="second-box">
+									  <i class="icofont-cube"></i>
+									  <h5>Ullamco laboris ladore pan</h5>
+									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+								  </div>
+						   </div>
+						   
+						   <div class="col-lg-4">
+								  <div class="second-box">
+									  <i class="icofont-image"></i>
+									  <h5>Labore consequatur</h5>
+									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+								  </div>
+						   </div>
+						   
+					   </div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+  
+  
+            <!------------- details section end ------------->
+			
+			
+			
+			
+			<!------------- trading section start ------------->
+			
+			
+	<section class="trading-section pt-5 pb-5">
+	   <div class="container">
+	      <div class="row">
+		           <!--- line-1 ---->
+		     <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-institution" style="color: #ffbb2c;"></i>
+					<h5><a href="#">Lorem Ipsum</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-spreadsheet" style="color: #5578ff;"></i>
+					<h5><a href="#">Dolor Sitema</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-ui-calendar" style="color:#e80368;"></i>
+					<h5><a href="#">Sed perspiciatis</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-paint-brush" style="color:#e361ff;"></i>
+					<h5><a href="#">Magni Dolores</a></h5>
+				 </div>
+			 </div>
+			 
+			      <!--- line-2 ---->
+				  
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-database" style="color:#47aeff;"></i>
+					<h5><a href="#">Nemo Enim</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-chart-radar-graph" style="color:#ffa76e;"></i>
+					<h5><a href="#">Eiusmod Tempor</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-list" style="color:#11dbcf;"></i>
+					<h5><a href="#">Midela Teren</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-tagged" style="color:#4233ff;"></i>
+					<h5><a href="#">Pira Neve</a></h5>
+				 </div>
+			 </div>
+			 
+			       <!--- line-3 ---->
+				   
+		     <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-anchor" style="color:#b2904f;"></i>
+					<h5><a href="#">Dirada Pack</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-disc" style="color:#b20969;"></i>
+					<h5><a href="#">Moton Ideal</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-network-tower" style="color:#ff5828;"></i>
+					<h5><a href="#">Verdo Park</a></h5>
+				 </div>
+			 </div>
+			 
+			 <div class="col-lg-3">
+			     <div class="trading-box d-flex align-items-center">
+				    <i class="icofont-finger-print" style="color:#29cc61;"></i>
+					<h5><a href="#">Flavor Nivelanda</a></h5>
+				 </div>
+			 </div>
+			 
+		  </div>
+	   </div>
+	</section>
+			
+			
+			<!------------- trading section end ------------->
+			
+			
+			
+			    <!----------- course section start -------->
+				
+    
+	<section class="pt-5 pb-5 course-section">
+	   <div class="container">
+	      <div class="row">
+		  
+		     <div class="col-lg-12">
+			    <div class="course-title">
+				  <h6>courses</h6>
+				  <div class="course-line"></div>
+				  <h2>popular courses</h2>
+				</div>
+			 </div>
+			 
+			 <div class="col-lg-4 pt-5">
+			    <div class="card">
+				   <img src="images/course/course-1.jpg" class="card-img-top" alt="course-img">
+					   <div class="card-body">
+					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
+							   <button>Web Development</button>
+							   <span class="number">$160</span>
+							</div>
+							<h5 class="card-body-section-btn"><a href="#">Website Design</a></h5>
+							<p class="card-body-section-para">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+							<div class="card-end d-flex justify-content-between align-items-center">
+							   <div class="card-end-img d-flex align-items-center">
+							       <img src="images/course/course-trainer1.jpg" class="img-fluid">
+								   <span>Antonio</span>
+							   </div>
+							   <div class="card-end-icon d-flex align-items-center">
+							      <i class="icofont-ui-user"></i>
+								     <span>50</span>
+								  <i class="icofont-heart"></i>
+								      <span>65</span>
+							   </div>
+							</div>
+					   </div>
+				</div>
+			 </div>
+			 
+			 			 <div class="col-lg-4 pt-5">
+			    <div class="card">
+				   <img src="images/course/course-2.jpg" class="card-img-top" alt="course-img">
+					   <div class="card-body">
+					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
+							   <button>Marketing</button>
+							   <span class="number">$250</span>
+							</div>
+							<h5 class="card-body-section-btn"><a href="#">Search Engine Optimization</a></h5>
+							<p class="card-body-section-para">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+							<div class="card-end d-flex justify-content-between align-items-center">
+							   <div class="card-end-img d-flex align-items-center">
+							       <img src="images/course/course-trainer1.jpg" class="img-fluid">
+								   <span>Lana</span>
+							   </div>
+							   <div class="card-end-icon d-flex align-items-center">
+							      <i class="icofont-ui-user"></i>
+								     <span>35</span>
+								  <i class="icofont-heart"></i>
+								      <span>43</span>
+							   </div>
+							</div>
+					   </div>
+				</div>
+			 </div>
+			 
+			 			 <div class="col-lg-4 pt-5">
+			    <div class="card">
+				   <img src="images/course/course-3.jpg" class="card-img-top" alt="course-img">
+					   <div class="card-body">
+					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
+							   <button>Content</button>
+							   <span class="number">$180</span>
+							</div>
+							<h5 class="card-body-section-btn"><a href="#">Copywriting</a></h5>
+							<p class="card-body-section-para">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+							<div class="card-end d-flex justify-content-between align-items-center">
+							   <div class="card-end-img d-flex align-items-center">
+							       <img src="images/course/course-trainer1.jpg" class="img-fluid">
+								   <span>Brandon</span>
+							   </div>
+							   <div class="card-end-icon d-flex align-items-center">
+							      <i class="icofont-ui-user"></i>
+								     <span>20</span>
+								  <i class="icofont-heart"></i>
+								      <span>85</span>
+							   </div>
+							</div>
+					   </div>
+				</div>
+			 </div>
+			 
+		  </div>
+	   </div>
+	</section>
+				
+				
+				
+				<!----------- course section end -------->
+				
+				
+				
+			<!----------- trainer section start --------------->
+			
+	<section class="trainer-section">
+	   <div class="container">
+	      <div class="row">
+		  
+		      <div class="col-lg-4 mt-5 mb-5">
+			      <div class="card">
+					  <img src="images/trainers/trainer-1.jpg" class="card-img-top" alt="trainers-images">
+					  <div class="card-body text-center">
+						 <h5 class="mt-2">Walter White</h5>
+						 <span>Web Development</span>
+						 <p class="pt-2">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+						   
+						   <div class="trainer-link mb-2">
+						      <a href="#"><i class="icofont-twitter"></i></a>
+							  <a href="#"><i class="icofont-facebook"></i></a>
+							  <a href="#"><i class="icofont-instagram"></i></a>
+							  <a href="#"><i class="icofont-linkedin"></i></a>
+						   </div>
+					  </div>
+				  </div>
+			  </div>
+			  
+			  <div class="col-lg-4 mt-5">
+			      <div class="card">
+					  <img src="images/trainers/trainer-2.jpg" class="card-img-top" alt="trainers-images">
+					  <div class="card-body text-center">
+						 <h5 class="mt-2">Sarah Jhinson</h5>
+						 <span>Marketing</span>
+						 <p class="pt-2">Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibusp</p>
+						   
+						   <div class="trainer-link mb-2">
+						      <a href="#"><i class="icofont-twitter"></i></a>
+							  <a href="#"><i class="icofont-facebook"></i></a>
+							  <a href="#"><i class="icofont-instagram"></i></a>
+							  <a href="#"><i class="icofont-linkedin"></i></a>
+						   </div>
+					  </div>
+				  </div>
+			  </div>
+			  
+			  <div class="col-lg-4 mt-5">
+			      <div class="card">
+					  <img src="images/trainers/trainer-3.jpg" class="card-img-top" alt="trainers-images">
+					  <div class="card-body text-center">
+						 <h5 class="mt-2">William Anderson</h5>
+						 <span>Content</span>
+						 <p class="pt-2">Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+						   
+						   <div class="trainer-link mb-2">
+						      <a href="#"><i class="icofont-twitter"></i></a>
+							  <a href="#"><i class="icofont-facebook"></i></a>
+							  <a href="#"><i class="icofont-instagram"></i></a>
+							  <a href="#"><i class="icofont-linkedin"></i></a>
+						   </div>
+					  </div>
+				  </div>
+			  </div>
+			  
+		  </div>
+	   </div>
+	</section>
+			
+			
+			<!----------- trainer section end --------------->
+			
+			
+			     <!-------- footer section start -------->
+				 
+				 
+	
+	<footer class="footer-section mt-5">
+	   <div class="container">
+	      <div class="row">
+		  
+		     <div class="col-lg-3">
+				     <div class="main-details">
+					     <h3>Mentor</h3>
+						 <p> A108 Adam Street <br> New York,NY 535022 <br> United States. <br><br> 
+						 <strong>Phone:</strong> +1 5589 55488 55<br>
+						 <strong>Email:</strong>  info@example.com
+						 </p>
+					 </div>
+				</div>
+				
+				    <!--- useful links -->
+					
+				<div class="col-lg-2">
+				     <div class="useful-links">
+					     <h4> Useful Links </h4>
+						 <ul class="useful-links-list lh-5">
+						     <li><i class="icofont-curved-right"></i><a href="#">Home</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">About us</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Services</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Terms of service</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Privacy policy</li></a>
+						 </ul>
+					 </div>
+				</div>
+				
+				    <!--- our services -->
+					
+				<div class="col-lg-3">
+				     <div class="our-services">
+					     <h4> Our Services </h4>
+						 <ul class="our-services-list">
+						     <li><i class="icofont-curved-right"></i><a href="#">Web Design</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Web Development</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Product Management</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Marketing</li></a>
+							 <li><i class="icofont-curved-right"></i><a href="#">Graphic Design</li></a>
+						 </ul>
+					 </div>
+				</div>
+				
+				  <!--- subscribe -->
+				  
+				<div class="col-lg-4">
+				     <div class="subscribe">
+					     <h4> Join Our Newsletter </h4>
+						 <p class="pt-3 pb-3 fs-6"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna </p>
+						 
+						 <form class="subscribe-btn">
+						    <input type="email" name="email" id="email" required>
+							<button>Subscribe</button>
+						 </form> 
+					 </div>
+				</div>
+				
+				
+		  </div>
+	   </div>
+	</footer>
+				 
+				 
+				 
+				 <!-------- footer section end -------->
+				 
+				 
+			         <!------------- copyright section start ---------->
+					 
+					 
+	<section class="copyright pt-4 pb-4">
+	    <div class="container">
+		   <div class="row">
+		   
+		      <div class="col-lg-9"> 
+			      <div class="rights-details">
+				      © Copyright <span>Mentor.</span> All Rights Reserved
+				  </div>
+				  <div class="rights-link">
+				       Designed by <a href="#">BootstrapMade</a>
+				  </div>
+			  </div>
+			  
+			  <div class="col-lg-3">
+			      <div class="end-link">
+				     <a href="#"><i class="icofont-twitter"></i></a>
+					 <a href="#"><i class="icofont-facebook"></i></a>
+					 <a href="#"><i class="icofont-instagram"></i></a>
+					 <a href="#"><i class="icofont-skype"></i></a>
+					 <a href="#"><i class="icofont-linkedin"></i></a>
+				  </div>
+				  
+			  
+			      <!---- arrow ---->
+				  
+			  <div class="arrow">
+			     <a href="#"><i class="icofont-arrow-up"></i></a>
+			  </div>
+			  </div>
+			  
+		  </div>
+		</div>
+	</section>
+
+
+                    <!------------- copyright section end ------------>	
+    
+     
+	 
+	          
+			  
+			  
+			  
+  
+			  
+			  
+			  
+			  
+	<script src="js/bootstrap.bundle.min.js"> </script>		  
+</body>
+</html>
