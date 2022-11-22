@@ -11,6 +11,8 @@
 	 <link rel="stylesheet" href="icon/icofont.min.css">
 	         <!----- bootstrap link ---->
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	         <!----- responsive link ---->
+	 <link rel="stylesheet" href="css/responsive.css">
 	         <!---- css link ----->
 	 <link rel="stylesheet" href="css/main.css">
 	 
@@ -19,17 +21,21 @@
 
              <!--------- header section start ---------->
   
-        <header class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-3">
+        <header class="navbar-expand-lg navbar-light bg-white pt-3 pb-3">
 			  
-			  <div class="col-lg-12">
+			 
 				<div class="container">
 			  <div class="row">
 			  
-			     <div class="col-lg-3">
+			     <div class="col-lg-3 logo-name d-flex justify-content-between">
 				     <a class="logo fs-2 fw-bolder" href="index.html">MENTOR</a>
+					      <div class="nav-btn d-flex justify-content-between">
+						    <a class="nav-link get-btn d-block d-md-block d-lg-none" href="courses.html">Get Started</a>
+						 
 								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 								</button>
+					     </div>
 				 </div>
 				 
 				 
@@ -61,7 +67,7 @@
 							  <a class="nav-link" href="pricing.html">Pricing</a>
 							</li>
 							
-							<li class="nav-item nav-li">
+							<li class="nav-item dropdown">
 							
 							    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"  data-bs-toggle="dropdown" aria-expanded="false">
 								Dropdown
@@ -94,7 +100,7 @@
 							  <a class="nav-link" href="contact.html">Contact</a>
 							</li>
 							
-							<li class="nav-item">
+							<li class="nav-item d-lg-block  d-none d-md-none">
 							  <a class="nav-link get-btn" href="courses.html">Get Started</a>
 							</li>
 							
@@ -105,7 +111,9 @@
 				 </div>
 				</div>
 				</div>
+			
 			</div>
+			
         </header>
 		
 		
@@ -121,7 +129,7 @@
 		      <div class="banner-content">
 			       <h1>Learning Today,<br>Leading Tomorrow</h1>
 				   <p>We are team of talented designers making websites with Bootstrap</p>
-				   <a  href="courses.html" class="banner-btn"> Get Started </a>
+				   <a  href="about.html" class="banner-btn"> Get Started </a>
 			  </div>
 		   </div>
 		</section>
@@ -135,10 +143,10 @@
 			  
 	    <section class="pt-5 image-content">
 		   <div class="container">
-		      <div class="row">
+		      <div class="row direction">
 			     
 					 <div class="col-lg-6">
-						 <div class="content">
+						 <div class="content mt-4">
 							 <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 							 <p class="content-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							 <ul class="img-content-list">
@@ -173,7 +181,7 @@
 	    <div class="container">
 		    <div class="row">
 			
-			    <div class="col-lg-3">
+			    <div class="col-6 col-lg-3">
 				     <div class="rating-box">
 					    <h2>1232</h2>
 						<p>Students</p>
@@ -181,21 +189,21 @@
 				</div>
 				
 				
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 				     <div class="rating-box">
 					    <h2>64</h2>
 						<p>Courses</p>
 					 </div>
 				</div>
 				
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 				     <div class="rating-box">
 					    <h2>42</h2>
 						<p>Events</p>
 					 </div>
 				</div>
 				
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 				     <div class="rating-box">
 					    <h2>15</h2>
 						<p>Trainers</p>
@@ -223,33 +231,33 @@
 					    <h2 class="text-white fs-1 fw-bold">Why Choose Mentor?</h2>
 						<p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
 						<div class="details-btn text-center pt-3">
-						   <a href="about.html" class="fs-6 text-center">Learn More<i class="icofont-curved-right ps-2"></i></a>
+						   <a href="courses.html" class="fs-6 text-center">Learn More<i class="icofont-curved-right ps-2"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-lg-8 d-flex align-items-center">
+				<div class="col-lg-8 d-flex align-items-center mt-4">
 				  <div class="second-box-down">
     				<div class="row">
 					
-					   <div class="col-lg-4">
-								  <div class="second-box">
+					   <div class="col-lg-4 mb-4">
+								  <div class="second-box mb-4">
 									  <i class="icofont-newspaper"></i>
 									  <h5>Corporis voluptates sit</h5>
 									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 								  </div>
 						   </div>
 						   
-						   <div class="col-lg-4">
-								  <div class="second-box">
+						   <div class="col-lg-4 mb-4">
+								  <div class="second-box mb-4">
 									  <i class="icofont-cube"></i>
 									  <h5>Ullamco laboris ladore pan</h5>
 									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 								  </div>
 						   </div>
 						   
-						   <div class="col-lg-4">
-								  <div class="second-box">
+						   <div class="col-lg-4 mb-4">
+								  <div class="second-box mb-4">
 									  <i class="icofont-image"></i>
 									  <h5>Labore consequatur</h5>
 									  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
@@ -278,28 +286,28 @@
 	   <div class="container">
 	      <div class="row">
 		           <!--- line-1 ---->
-		     <div class="col-lg-3">
+		     <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-institution" style="color: #ffbb2c;"></i>
 					<h5><a href="#">Lorem Ipsum</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-spreadsheet" style="color: #5578ff;"></i>
 					<h5><a href="#">Dolor Sitema</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-ui-calendar" style="color:#e80368;"></i>
 					<h5><a href="#">Sed perspiciatis</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-paint-brush" style="color:#e361ff;"></i>
 					<h5><a href="#">Magni Dolores</a></h5>
@@ -308,28 +316,28 @@
 			 
 			      <!--- line-2 ---->
 				  
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-database" style="color:#47aeff;"></i>
 					<h5><a href="#">Nemo Enim</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-chart-radar-graph" style="color:#ffa76e;"></i>
 					<h5><a href="#">Eiusmod Tempor</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-list" style="color:#11dbcf;"></i>
 					<h5><a href="#">Midela Teren</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-tagged" style="color:#4233ff;"></i>
 					<h5><a href="#">Pira Neve</a></h5>
@@ -338,28 +346,28 @@
 			 
 			       <!--- line-3 ---->
 				   
-		     <div class="col-lg-3">
+		     <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-anchor" style="color:#b2904f;"></i>
 					<h5><a href="#">Dirada Pack</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-disc" style="color:#b20969;"></i>
 					<h5><a href="#">Moton Ideal</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-network-tower" style="color:#ff5828;"></i>
 					<h5><a href="#">Verdo Park</a></h5>
 				 </div>
 			 </div>
 			 
-			 <div class="col-lg-3">
+			 <div class="col-md-4 col-lg-3">
 			     <div class="trading-box d-flex align-items-center">
 				    <i class="icofont-finger-print" style="color:#29cc61;"></i>
 					<h5><a href="#">Flavor Nivelanda</a></h5>
@@ -382,7 +390,7 @@
 	   <div class="container">
 	      <div class="row">
 		  
-		     <div class="col-lg-12">
+		     <div class="col-12 col-lg-12">
 			    <div class="course-title">
 				  <h6>courses</h6>
 				  <div class="course-line"></div>
@@ -390,12 +398,12 @@
 				</div>
 			 </div>
 			 
-			 <div class="col-lg-4 pt-5">
+			 <div class="col-md-6 col-lg-4 pt-5">
 			    <div class="card">
 				   <img src="images/course/course-1.jpg" class="card-img-top" alt="course-img">
 					   <div class="card-body">
 					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
-							   <button>Web Development</button>
+							   <h4><a href="#">Web Development</a></h4>
 							   <span class="number">$160</span>
 							</div>
 							<h5 class="card-body-section-btn"><a href="#">Website Design</a></h5>
@@ -416,12 +424,12 @@
 				</div>
 			 </div>
 			 
-			 			 <div class="col-lg-4 pt-5">
+			 			 <div class="col-md-6 col-lg-4 pt-5">
 			    <div class="card">
 				   <img src="images/course/course-2.jpg" class="card-img-top" alt="course-img">
 					   <div class="card-body">
 					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
-							   <button>Marketing</button>
+							   <h4><a href="#">Marketing</a></h4>
 							   <span class="number">$250</span>
 							</div>
 							<h5 class="card-body-section-btn"><a href="#">Search Engine Optimization</a></h5>
@@ -442,7 +450,7 @@
 				</div>
 			 </div>
 			 
-			 			 <div class="col-lg-4 pt-5">
+			 			 <div class="col-md-6 col-lg-4 pt-5">
 			    <div class="card">
 				   <img src="images/course/course-3.jpg" class="card-img-top" alt="course-img">
 					   <div class="card-body">
@@ -484,7 +492,7 @@
 	   <div class="container">
 	      <div class="row">
 		  
-		      <div class="col-lg-4 mt-5 mb-5">
+		      <div class="col-md-6 col-lg-4 mt-5 mb-5">
 			      <div class="card">
 					  <img src="images/trainers/trainer-1.jpg" class="card-img-top" alt="trainers-images">
 					  <div class="card-body text-center">
@@ -502,7 +510,7 @@
 				  </div>
 			  </div>
 			  
-			  <div class="col-lg-4 mt-5">
+			  <div class="col-md-6 col-lg-4 mt-5">
 			      <div class="card">
 					  <img src="images/trainers/trainer-2.jpg" class="card-img-top" alt="trainers-images">
 					  <div class="card-body text-center">
@@ -520,7 +528,7 @@
 				  </div>
 			  </div>
 			  
-			  <div class="col-lg-4 mt-5">
+			  <div class="col-md-6 col-lg-4 mt-5">
 			      <div class="card">
 					  <img src="images/trainers/trainer-3.jpg" class="card-img-top" alt="trainers-images">
 					  <div class="card-body text-center">
@@ -554,7 +562,7 @@
 	   <div class="container">
 	      <div class="row">
 		  
-		     <div class="col-lg-3">
+		     <div class="col-md-6 col-lg-3">
 				     <div class="main-details">
 					     <h3>Mentor</h3>
 						 <p> A108 Adam Street <br> New York,NY 535022 <br> United States. <br><br> 
@@ -566,45 +574,48 @@
 				
 				    <!--- useful links -->
 					
-				<div class="col-lg-2">
+				<div class="col-md-6 col-lg-2">
 				     <div class="useful-links">
 					     <h4> Useful Links </h4>
 						 <ul class="useful-links-list lh-5">
-						     <li><i class="icofont-curved-right"></i><a href="#">Home</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">About us</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Services</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Terms of service</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Privacy policy</li></a>
+						     <li><i class="icofont-curved-right"><a href="#">Home</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">About us</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Services</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Terms of service</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Privacy policy</a></i></li>
 						 </ul>
 					 </div>
 				</div>
 				
 				    <!--- our services -->
 					
-				<div class="col-lg-3">
+				<div class="col-md-6 col-lg-3">
 				     <div class="our-services">
 					     <h4> Our Services </h4>
 						 <ul class="our-services-list">
-						     <li><i class="icofont-curved-right"></i><a href="#">Web Design</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Web Development</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Product Management</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Marketing</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Graphic Design</li></a>
+						     <li><i class="icofont-curved-right"><a href="#">Web Design</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Web Development</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Product Management</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Marketing</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Graphic Design</a></i></li>
 						 </ul>
 					 </div>
 				</div>
 				
 				  <!--- subscribe -->
-				  
-				<div class="col-lg-4">
+				 
+
+                				 
+				<div class="col-md-6 col-lg-4">
 				     <div class="subscribe">
 					     <h4> Join Our Newsletter </h4>
 						 <p class="pt-3 pb-3 fs-6"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna </p>
 						 
-						 <form class="subscribe-btn">
-						    <input type="email" name="email" id="email" required>
-							<button>Subscribe</button>
-						 </form> 
+						 <form class="sub-btn">
+						     <input type="email" id="email" name="email" required>
+							 <button>Subscribe</button>
+						 </form>
+						 
 					 </div>
 				</div>
 				
@@ -625,7 +636,7 @@
 	    <div class="container">
 		   <div class="row">
 		   
-		      <div class="col-lg-9"> 
+		      <div class="col-md-7 col-lg-9"> 
 			      <div class="rights-details">
 				      © Copyright <span>Mentor.</span> All Rights Reserved
 				  </div>
@@ -634,7 +645,7 @@
 				  </div>
 			  </div>
 			  
-			  <div class="col-lg-3">
+			  <div class="col-md-5 col-lg-3">
 			      <div class="end-link">
 				     <a href="#"><i class="icofont-twitter"></i></a>
 					 <a href="#"><i class="icofont-facebook"></i></a>

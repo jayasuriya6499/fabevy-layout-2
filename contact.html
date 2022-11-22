@@ -11,6 +11,8 @@
 	 <link rel="stylesheet" href="icon/icofont.min.css">
 	         <!----- bootstrap link ---->
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	         <!----- responsive link ---->
+	 <link rel="stylesheet" href="css/responsive.css">
 	         <!---- css link ----->
 	 <link rel="stylesheet" href="css/main.css">
 	 
@@ -19,17 +21,21 @@
 
              <!--------- header section start ---------->
   
-        <header class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-3">
+        <header class="navbar-expand-lg navbar-light bg-white pt-3 pb-3">
 			  
-			  <div class="col-lg-12">
+			 
 				<div class="container">
 			  <div class="row">
 			  
-			     <div class="col-lg-3">
+			     <div class="col-lg-3 logo-name d-flex justify-content-between">
 				     <a class="logo fs-2 fw-bolder" href="index.html">MENTOR</a>
+					      <div class="nav-btn d-flex justify-content-between">
+						    <a class="nav-link get-btn d-block d-md-block d-lg-none" href="courses.html">Get Started</a>
+						 
 								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 								</button>
+					     </div>
 				 </div>
 				 
 				 
@@ -94,7 +100,7 @@
 							  <a class="nav-link" href="contact.html">Contact</a>
 							</li>
 							
-							<li class="nav-item">
+							<li class="nav-item d-lg-block  d-none d-md-none">
 							  <a class="nav-link get-btn" href="courses.html">Get Started</a>
 							</li>
 							
@@ -105,7 +111,9 @@
 				 </div>
 				</div>
 				</div>
+			
 			</div>
+			
         </header>
 		
 		
@@ -161,20 +169,20 @@
 			     
 				      <!--- form --->
 			   
-			   <div class="col-lg-8">
+			   <div class="col-lg-8 col-md-12">
 			       <div class="contact-form">
 					    <div class="col-lg-12">
 							<div class="row">
 								
-								  <div class="col-lg-6">
+								  <div class="col-lg-6 col-md-6 mb-3">
 									<input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name">
 								  </div>
 								  
-								  <div class="col-lg-6">
+								  <div class="col-lg-6 col-md-6">
 									<input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email">
 								  </div>
 								  
-								  <div class="col-lg-12 mt-4">
+								  <div class="col-lg-12 mt-3">
 									<input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
 								  </div>
 								  
@@ -217,7 +225,7 @@
 	   <div class="container">
 	      <div class="row">
 		  
-		     <div class="col-lg-3">
+		     <div class="col-md-6 col-lg-3">
 				     <div class="main-details">
 					     <h3>Mentor</h3>
 						 <p> A108 Adam Street <br> New York,NY 535022 <br> United States. <br><br> 
@@ -229,45 +237,48 @@
 				
 				    <!--- useful links -->
 					
-				<div class="col-lg-2">
+				<div class="col-md-6 col-lg-2">
 				     <div class="useful-links">
 					     <h4> Useful Links </h4>
 						 <ul class="useful-links-list lh-5">
-						     <li><i class="icofont-curved-right"></i><a href="#">Home</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">About us</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Services</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Terms of service</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Privacy policy</li></a>
+						     <li><i class="icofont-curved-right"><a href="#">Home</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">About us</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Services</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Terms of service</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Privacy policy</a></i></li>
 						 </ul>
 					 </div>
 				</div>
 				
 				    <!--- our services -->
 					
-				<div class="col-lg-3">
+				<div class="col-md-6 col-lg-3">
 				     <div class="our-services">
 					     <h4> Our Services </h4>
 						 <ul class="our-services-list">
-						     <li><i class="icofont-curved-right"></i><a href="#">Web Design</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Web Development</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Product Management</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Marketing</li></a>
-							 <li><i class="icofont-curved-right"></i><a href="#">Graphic Design</li></a>
+						     <li><i class="icofont-curved-right"><a href="#">Web Design</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Web Development</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Product Management</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Marketing</a></i></li>
+							 <li><i class="icofont-curved-right"><a href="#">Graphic Design</a></i></li>
 						 </ul>
 					 </div>
 				</div>
 				
 				  <!--- subscribe -->
-				  
-				<div class="col-lg-4">
+				 
+
+                				 
+				<div class="col-md-6 col-lg-4">
 				     <div class="subscribe">
 					     <h4> Join Our Newsletter </h4>
 						 <p class="pt-3 pb-3 fs-6"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna </p>
 						 
-						 <form class="subscribe-btn">
-						    <input type="email" name="email" id="email" required>
-							<button>Subscribe</button>
-						 </form> 
+						 <form class="sub-btn">
+						     <input type="email" id="email" name="email" required>
+							 <button>Subscribe</button>
+						 </form>
+						 
 					 </div>
 				</div>
 				
@@ -281,7 +292,6 @@
 				 <!-------- footer section end -------->
 				 
 				 
-				 
 			         <!------------- copyright section start ---------->
 					 
 					 
@@ -289,7 +299,7 @@
 	    <div class="container">
 		   <div class="row">
 		   
-		      <div class="col-lg-9"> 
+		      <div class="col-md-7 col-lg-9"> 
 			      <div class="rights-details">
 				      © Copyright <span>Mentor.</span> All Rights Reserved
 				  </div>
@@ -298,7 +308,7 @@
 				  </div>
 			  </div>
 			  
-			  <div class="col-lg-3">
+			  <div class="col-md-5 col-lg-3">
 			      <div class="end-link">
 				     <a href="#"><i class="icofont-twitter"></i></a>
 					 <a href="#"><i class="icofont-facebook"></i></a>
@@ -315,13 +325,12 @@
 			  </div>
 			  </div>
 			  
-			  
 		  </div>
 		</div>
 	</section>
 
 
-                    <!------------- copyright section end ------------>	
+                    <!------------- copyright section end ------------>		
     
      
 	 
