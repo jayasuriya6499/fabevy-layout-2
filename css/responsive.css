@@ -51,7 +51,7 @@
 }
 
 
-@media (min-width:768px){
+@media (min-width:576px) and (max-width:992px){
 	
 	.banner-section .banner-content{
 		padding-top:200px;

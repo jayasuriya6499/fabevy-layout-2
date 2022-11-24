@@ -51,7 +51,7 @@
 }
 
 
-@media (min-width:768px){
+@media (min-width:576px and min-width:992px){
 	
 	.banner-section .banner-content{
 		padding-top:200px;
@@ -135,7 +135,6 @@
 	/*---- about ----*/
 	
 	.testimonials-section .testimonials-title h6:after{
-	  top:40%;
 	  left:16%;
 	  width:20%;
 	}
