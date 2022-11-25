@@ -455,7 +455,7 @@
 				   <img src="images/course/course-3.jpg" class="card-img-top" alt="course-img">
 					   <div class="card-body">
 					        <div class="card-body-section d-flex justify-content-between align-items-center mb-3">
-							   <button>Content</button>
+							   <h4><a href="#">Content</a></h4>
 							   <span class="number">$180</span>
 							</div>
 							<h5 class="card-body-section-btn"><a href="#">Copywriting</a></h5>
